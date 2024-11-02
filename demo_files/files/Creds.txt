@@ -1,0 +1,15 @@
+|-----------+----------------+-----------------------+-------------|
+| Platform  |   Username     |          Email        |  Password   |
+|-----------+----------------+-----------------------+-------------|
+| Gmail     | johndoe123     | johndoe@gmail.com     | 3$Fk9mZ!tP4 |
+| Facebook  | john.doe       | john.doe@facebook.com | m^zR8&Jk2Q5 |
+| Twitter   | johndoe_tw     | johndoe@twitter.com   | T!u6P9b*Wy3 |
+| LinkedIn  | john-doe       | johndoe@linkedin.com  | 4Fr!oN5l*zD |
+| Netflix   | john.doe789    | johndoe@netflix.com   | nPx7!9FrQ5* |
+| Spotify   | john_d_music   | johndoe@spotify.com   | S!3qVr8o*Pz |
+| Reddit    | johndoe_reddit | johndoe@reddit.com    | Rd!5Kz0a*p2 |
+| PayPal    | johndoe.pay    | johndoe@paypal.com    | 6B$qF2r*DzJ |
+| Apple ID  | john.doe       | johndoe@apple.com     | i9P*Jr5z!v3 |
+| Microsoft | johndoe_ms     | johndoe@microsoft.com | 3m$Yz6*RpF8 |
+| Dropbox   | johnd_files    | johndoe@dropbox.com   | Dr9*Qx8$Fo1 |
+|-----------+----------------+-----------------------+-------------|

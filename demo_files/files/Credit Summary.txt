@@ -1,0 +1,9 @@
+Credit Summary:
+
+Credit Score: 720
+Total Accounts: 10
+Open Accounts: 6
+Closed Accounts: 4
+Inquiries (Last 2 Years): 3
+Delinquent Accounts: 0
+Public Records: None
