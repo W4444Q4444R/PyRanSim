@@ -41,9 +41,19 @@ python encryptor.py -p <path_to_folder>
 ```cmd
 python encryptor.py -p "C:\path\to\demo_files"
 ```
+<br>
 
 ### 2. `encryptor_v2.py`
-This is a bit advanced version of encryptor with C2 functionality. It accepts `-p` to specify the folder path for encryption and `-x` to choose the exfiltration method (`clear` or `encrypted`).
+This is a bit advanced version of encryptor with C2 functionality. It accepts `-p` to specify the folder path for encryption and `-x` to choose the exfiltration method (`clear` or `encrypted`). Edit this script file and replace 'Your_Discord_Webhook_URL' with your actual discord webhook url.
+
+**Create a Webhook in Discord**
+1. Go to the **Discord server** and **channel** where you want to send the message.
+2. Click on the **Settings** for the channel, then go to **Integrations**.
+3. Under **Webhooks**, click **Create Webhook**.
+4. Give your webhook a **name** and **select the channel** where it will send messages.
+5. Click **Copy Webhook URL** – save this URL as you’ll need it in the code.
+
+<br>
 
 **Command Usage:**
 ```cmd
@@ -54,6 +64,8 @@ python encryptor_v2.py -p <path_to_folder> -x <exfiltration_type>
 ```cmd
 python encryptor_v2.py -p "C:\path\to\demo_files" -x clear
 ```
+
+<br>
 
 ### 3. `decryptor.py`
 Decrypts files encrypted by either `encryptor.py` or `encryptor_v2.py` using the saved symmetric key. Accepts `-p` for the path to the encrypted files and `-k` for the encryption key file.
@@ -72,4 +84,4 @@ python decryptor.py -p "C:\path\to\demo_files" -k ransom_key.key
 
 ## Disclaimer
 
-This software is intended solely for EDUCATIONAL and ETHICAL purposes to demonstrate ransomware functionality in a controlled environment. Misuse of this program to encrypt files or perform ransomware activities on unauthorized systems is illegal and can be punishable under law. The author is not liable for any damage or loss resulting from the misuse of this program. Use responsibly and only on systems you own or have permission to test.
+These scripts are intended solely for EDUCATIONAL and ETHICAL purposes to demonstrate the mechanics of a basic ransomware in a controlled environment. Any misuse of these scripts to encrypt files or perform ransomware activities on unauthorized systems is illegal and can be punishable under law. The author is not responsible for any damage, loss or other harm resulting from these scripts, whether intentional or accidental. Any use of this code outside of its intended educational purpose, is strictly prohibited and may be illegal. Use responsibly and only on systems you own or have permission to test.
